@@ -1,0 +1,2 @@
+# BlasterMaster
+Discord music bot
