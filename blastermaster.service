@@ -1,0 +1,12 @@
+[Unit]
+Description=BlasterMaster
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u blasterMaster_0_1.py
+WorkingDirectory=/home/henzzzzi/blastermaster
+Restart=always
+User=henzzzzi
+
+[Install]
+WantedBy=multi-user.target
